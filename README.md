@@ -35,7 +35,7 @@ The network is composed of:
 
 - **Bidirectional Cross Fusion Block (BCF)**
 - <p align="center">
-  <img src="BCF.png" alt="BCF Architecture" width="400"/>
+  <img src="BCF.png" alt="BCF Architecture" width="600"/>
 </p>
   - Employs **bidirectional self-attention** between high-resolution and low-resolution features.  
   - Adaptive gating balances fine-grained detail enhancement and semantic context refinement.  
