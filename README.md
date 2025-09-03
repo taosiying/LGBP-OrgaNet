@@ -9,7 +9,10 @@ Our method integrates CNN-derived local textures and Transformer-based global se
 
 ## 🏗️ Model Architecture
 
-![Model Architecture](overview.png)
+<p align="center">
+  <img src="overview.png" alt="Model Architecture" width="600"/>
+</p>
+
 
 The network is composed of:
 - **Dual-branch Encoder** combining ResNet and Swin Transformer.  
@@ -22,13 +25,18 @@ The network is composed of:
 ## 🔬 Key Contributions
 
 - **LGBP-Fusion**
-- ![LGBP Architecture](LGBP.png)
+- <p align="center">
+  <img src="LGBP.png" alt="LGBP Architecture" width="300"/>
+</p>
+
   - Decomposes CNN and Transformer features into multiple **adaptive Gaussian frequency bands**.  
   - Performs band-wise self-attention fusion, effectively combining textures and semantics.  
   - Reduces cross-modal interference and improves interpretability.  
 
 - **Bidirectional Cross Fusion Block (BCF)**
-- - ![BCF Architecture](BCF.png)
+- <p align="center">
+  <img src="BCF.png" alt="BCF Architecture" width="300"/>
+</p>
   - Employs **bidirectional self-attention** between high-resolution and low-resolution features.  
   - Adaptive gating balances fine-grained detail enhancement and semantic context refinement.  
 
